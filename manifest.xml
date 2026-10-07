@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ContentApp">
+  <Id>7fc2817d-91d4-42c0-8675-96a0968b2d6f</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>International Payment Department</ProviderName>
+  <DefaultLocale>id-ID</DefaultLocale>
+  <DisplayName DefaultValue="Dashboard Amend &amp; Refund"/>
+  <Description DefaultValue="Dashboard Amendment &amp; Refund TT Outward Remittance. Membaca data langsung dari sheet Dashboard Berita Tolakan TT dan ikut berubah saat data diubah."/>
+  <IconUrl DefaultValue="https://khairunidakhumaira.github.io/Dashboard-Outward-Remittance-ITP/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://khairunidakhumaira.github.io/Dashboard-Outward-Remittance-ITP/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="https://khairunidakhumaira.github.io/Dashboard-Outward-Remittance-ITP/"/>
+  <AppDomains>
+    <AppDomain>https://khairunidakhumaira.github.io</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="ExcelApi" MinVersion="1.7"/>
+    </Sets>
+  </Requirements>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://khairunidakhumaira.github.io/Dashboard-Outward-Remittance-ITP/index.html"/>
+    <RequestedWidth>1000</RequestedWidth>
+    <RequestedHeight>700</RequestedHeight>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <AllowSnapshot>true</AllowSnapshot>
+</OfficeApp>
